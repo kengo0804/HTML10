@@ -58,7 +58,7 @@ nav{
   display: inline-block;
   margin: 0 30px;
   font-size: 16px;
-  color: #fafafa
+  color: #fafafa;
 }
 
 .main-visual{
@@ -101,6 +101,7 @@ nav{
 	width: 1000px;
 	margin: 0 auto;
 	text-align: center;
+	line-height: 0;
 }
 
 .imgbox{
@@ -118,13 +119,14 @@ nav{
   }
 
 .imgbox:nth-child(2){
-  background-image: url(img/talk.jpg);
+  background-image: url(img/websuku.png);
   margin-bottom: 10px;
   }
 
 .imgbox:nth-child(3){
-  background-image: url(img/webcamp-mother.png);
+  background-image: url(img/write.jpg);
   margin-bottom: 10px;
+  margin-right: 0;
   }
 
 .imgbox:nth-child(4){
@@ -133,13 +135,14 @@ nav{
   }
 
 .imgbox:nth-child(5){
-  background-image: url(img/websuku.png);
+  background-image: url(img/talk.jpg);
   margin-bottom: 90px;
   }
 
 .imgbox:nth-child(6){
-  background-image: url(img/write.jpg);
+  background-image: url(img/webcamp-mother.png);
   margin-bottom: 90px;
+  margin-right: 0;
   }
 
 .feature-title{
@@ -164,6 +167,12 @@ nav{
 	margin-right: 10px;
 }
 
+.strength3{
+	width: 320px;
+	height: auto;
+	display: inline-block;
+}
+
 .strength1-img i{
 	width: 60px;
 	height: 30px;
@@ -180,9 +189,14 @@ nav{
 	margin: 10px 10px;
 }
 
+
 .strength1-text{
 	text-align: left;
-	margin: 0 0 90px 0;
+	margin: 0 0 10px 0;
+}
+
+.strength3-text{
+	margin-bottom: 90px;
 }
 
 .profile{
@@ -236,7 +250,7 @@ nav{
 }
 
 .my-tittle{
-	margin-bottom: 5px
+	margin-bottom: 5px;
 }
 
 p{
@@ -281,7 +295,7 @@ p{
 }
 
 .address-tittle{
-	font-size: 20px
+	font-size: 20px;
 }
 
 .mailaddress{
@@ -306,6 +320,10 @@ p{
 
 .social-tittle{
 	margin-bottom: 5px;
+}
+
+.social-tittle-box{
+	width: 260px;
 }
 
 .social-icon{
@@ -357,7 +375,8 @@ footer{
 }
 
 .imgsection{
-	width: 100%
+	width: 100%;
+	padding-bottom: 90px;
 }
 
 .imgbox{
@@ -432,6 +451,7 @@ footer{
 .imgbox{
 	width: 300px;
 	height: 250px;
+	padding-top: 0;
 }
 
 .imgbox:nth-child(1){
@@ -446,7 +466,7 @@ footer{
 
 .imgbox:nth-child(3){
   background-image: url(img/webcamp-mother.png);
-  margin-bottom: 90px;
+  margin: 0 auto;
   }
 
 .imgbox:nth-child(4){
@@ -459,7 +479,7 @@ footer{
 
 .imgbox:nth-child(6){
   display: none;
-  }
+}
 
 .feature-text{
 }
@@ -520,7 +540,7 @@ footer{
     border: solid 3px #fafafa;
     width: 20px;
     float: right;
-    height: 15px
+    height: 15px;
 }
 
 #humberger {
